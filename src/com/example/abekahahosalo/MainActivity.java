@@ -9,7 +9,11 @@ import android.app.FragmentTransaction;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
 import android.app.ActionBar;
+import android.content.Intent;
 
 
 public class MainActivity extends FragmentActivity  implements ActionBar.TabListener {
@@ -92,5 +96,7 @@ public class MainActivity extends FragmentActivity  implements ActionBar.TabList
 		
 		
 	}
+	
+	
     
 }
