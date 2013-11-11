@@ -4,5 +4,8 @@
     <string name="app_name">Abe Kaha Ho Salo!!!</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_team_created">TeamCreated</string>
+    <string name="team_created">Successful! Team Created</string>
+    
 
 </resources>
