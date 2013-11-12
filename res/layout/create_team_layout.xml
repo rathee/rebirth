@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
   xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id = "@+id/ct"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   android:fillViewport="true">
@@ -45,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
                 android:text="Full Name"/>
-          <EditText android:id="@+id/user_name"
+          <EditText android:id="@+id/userName"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -57,7 +58,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
                 android:text="Team Name"/>
-          <EditText android:id="@+id/team_name"
+          <EditText android:id="@+id/teamName"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
@@ -68,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#372c24"
                 android:text="Password"/>
-          <EditText android:id="@+id/password"
+          <EditText android:id="@+id/password_reg"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:password="true"
@@ -81,7 +82,8 @@
                 android:layout_marginTop="10dip"
                 android:text="Register New Account"
                 android:layout_below="@+id/progressBar1"
-                android:onClick="sendMessage"/>
+                android:onClick="sendMessage"
+                />
           <!-- Link to Login Screen -->
           <TextView android:id="@+id/link_to_login"
                 android:layout_width="fill_parent"

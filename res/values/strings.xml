@@ -6,6 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_team_created">TeamCreated</string>
     <string name="team_created">Successful! Team Created</string>
-    
+    <string name="title_activity_share_location">ShareLocation</string>
 
 </resources>
